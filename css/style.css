@@ -1,0 +1,52 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	outline-color: : red;
+}
+
+article > div {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}					
+}
+
+ul > li {
+	display: block;
+}
+#left {
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 100px;
+	width: 30%;
+	background-color: green;
+	float: left;
+	margin-right: 20px;
+	padding: 10px;
+	color: #ffffff;
+	border: 3px solid silver;
+	font-size: 40px;
+	font-family: Arial;
+	opacity: 0.5;
+	text-align: center;
+
+
+
+
+}
+#right {
+	height: 100px;
+	width: 50%;
+	background-color: green;
+	float: left;
+	margin-right: 20px;
+	padding: 10px;
+	color: #ffffff;
+	border: 3px solid silver;
+	font-size: 40px;
+	font-family: Arial;
+	opacity: 0.5;
+	text-align: center;
+
+
+
+}
