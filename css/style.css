@@ -1,52 +1,94 @@
 * {
 	padding: 0px;
-	margin: 0px;
-	outline-color: : red;
+	margin: 0px;	
+}	
+html {
+	background-color: #ff471a;
+ 
 }
-
 article > div {
 	margin-top: 10px;
 	margin-bottom: 10px;
-}					
+					
 }
 
 ul > li {
 	display: block;
 }
 #left {
+	background: url('http://f64.space/wp-content/uploads/2017/12/dark-tv-netflix.jpg')no-repeat center ;
+	background-repeat: repeat;
+ 
 	margin-top: 10px;
 	margin-left: 10px;
 	height: 100px;
 	width: 30%;
-	background-color: green;
+	background-color: #ff471a;
 	float: left;
-	margin-right: 20px;
+	margin-right: 10px;
 	padding: 10px;
-	color: #ffffff;
-	border: 3px solid silver;
-	font-size: 40px;
+	color: #fafafa;
+	border: 3px solid #ff471a;
+	font-size: 80px;
 	font-family: Arial;
-	opacity: 0.5;
-	text-align: center;
-
-
-
+	font-family: 'Rammetto One', cursive;
+	text-align: left;
 
 }
+#explore:hover {
+	color: #ffff1a;
+} 
+#explore:active {
+	color:#4d4d00;
+} 
+#about:hover {
+	color: #ffff1a;
+} 
+#about:active {
+	color: #4d4d00;
+} 
+
+
+
 #right {
+	background: url('http://f64.space/wp-content/uploads/2017/12/dark-tv-netflix.jpg')no-repeat center ;
+	background-repeat: repeat;
+ 
 	height: 100px;
-	width: 50%;
-	background-color: green;
-	float: left;
+	width: 30%;
+	background-color: #ff471a;
+	float: right;
 	margin-right: 20px;
 	padding: 10px;
 	color: #ffffff;
-	border: 3px solid silver;
-	font-size: 40px;
+	border: 3px solid #ff471a;
+	font-size: 80px;
 	font-family: Arial;
-	opacity: 0.5;
-	text-align: center;
+	margin-right: 10px;
+	font-family: 'Rammetto One', cursive;
+	text-align: right;
+}
 
+#center {
+	background: url('http://f64.space/wp-content/uploads/2017/12/dark-tv-netflix.jpg')no-repeat center ;
+	background-repeat: repeat;
+ 
+	height: 100px;
+	width: 33%;
+	background-color: #ff3300;
+	float: right;
+	margin-right: 20px;
+	padding: 10px;
+	border: 3px solid #ff3300;
+	font-size: 80px;
+	text-align: center;
+	text-decoration: overline;
+	margin-left: 0px;
+	color: #BDB76B;
+	font-family: 'Rammetto One', cursive;
+}
+.g {
+	color: green;
 
 
 }
